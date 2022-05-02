@@ -1,0 +1,29 @@
+.caixa1{
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+}
+
+.caixa2{
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 20px;
+    position: relative; /*faz com que o absolute seja relativo ao container*/
+}
+
+button{
+    padding: 10px;
+    /*relative: em relação ao container que ele está*/
+    /*absolute: em relação à toda a página*/
+    position: absolute;
+    top: 0px;
+}
+
+h2{
+    position: absolute;
+    z-index: 1;
+}
+
+h3{
+    background: #ec7b51;
+}
